@@ -7,7 +7,7 @@
         "source.generate.tests": "always",
         "source.organizeImports": "always",
         "source.sortMembers": "always",
-        "source.unusedImports": "always"
+        "source.unusedImports": "always",
     },
     "java.compile.nullAnalysis.mode": "automatic"
 }
