@@ -12,7 +12,7 @@ class AppTheme {
     ),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
-      fillColor: AppColors.secondBackground,
+      fillColor: const Color(0xff2C2B2B),
       hintStyle: const TextStyle(
         color: Color(0xffA7A7A7),
         fontWeight: FontWeight.w400,
