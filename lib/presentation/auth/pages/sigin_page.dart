@@ -88,7 +88,7 @@ class SiginPage extends StatelessWidget {
               ),
               recognizer: TapGestureRecognizer()
                 ..onTap = () {
-                  AppNavigation.push(context, const SignupPage());
+                  AppNavigation.pushReplacement(context, const SignupPage());
                 }),
         ],
       ),
