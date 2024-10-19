@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:movies/core/constants/api_url.dart';
 import 'package:movies/core/network/logger_interceptor.dart';
 
 class DioClient {
@@ -6,6 +7,7 @@ class DioClient {
   DioClient()
       : _dio = Dio(
           BaseOptions(
+              baseUrl: ApiUrl.baseURL,
               headers: {'Content-Type': 'application/json; charset=UTF-8'},
               responseType: ResponseType.json,
               sendTimeout: const Duration(seconds: 10),
